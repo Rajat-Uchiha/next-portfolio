@@ -36,7 +36,7 @@ const Hero = () => {
                 friends
               </span>
             </Link>
-            when I don't feel like working. 😁
+            when I don&apos;t feel like working. 😁
           </p>
         </div>
       </main>
