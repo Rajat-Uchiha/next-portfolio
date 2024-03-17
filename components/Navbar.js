@@ -10,7 +10,7 @@ import { FaHackerrank } from "react-icons/fa";
 const Navbar = () => {
   return (
     <header className=" w-full bg-gray-950 ">
-      <nav className="font-Barlow flex py-6 w-3/4 lg:w-1/2 mx-auto justify-between items-center">
+      <nav className="font-Barlow flex flex-col space-y-4 sm:flex-row  py-6 w-3/4 lg:w-1/2 mx-auto justify-between items-center">
         <div className=" text-xl">
           <Image className="w-20 invert" src={Logo} alt="logo" />
         </div>
