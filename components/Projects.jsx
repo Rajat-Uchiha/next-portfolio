@@ -11,7 +11,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Projects = () => {
   return (
-    <section className=" w-full mx-auto bg-gray-950 pt-10 min-h-96 ">
+    <section className=" w-full mx-auto dark:bg-neutral-950 pt-10 min-h-96 ">
       <main className=" w-3/4 lg:w-1/2 mx-auto">
         <div className="font-Josefin">
           <h2 className="text-white text-xl lg:text-3xl font-bold ">
@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
         <div className="py-4">
           <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <li className="border text-white p-3 rounded-xl leading-loose lg:leading-loose">
+            <li className="border dark:text-neutral-200 p-3 rounded-xl leading-loose lg:leading-loose">
               <Link href="https://devtales.netlify.app">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg ">
                   Devtales
@@ -51,7 +51,7 @@ const Projects = () => {
                 </li>
               </ul>
             </li>
-            <li className="border text-white p-3 rounded-xl leading-loose lg:leading-loose">
+            <li className="border dark:text-neutral-200 p-3 rounded-xl leading-loose lg:leading-loose">
               <Link href="https://letscooktasty.netlify.app">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg ">
                   Letscooktasty
@@ -79,7 +79,7 @@ const Projects = () => {
                 </li>
               </ul>
             </li>
-            <li className="border text-white p-3 rounded-xl leading-loose lg:leading-loose">
+            <li className="border dark:text-neutral-200 p-3 rounded-xl leading-loose lg:leading-loose">
               <Link href="https://myapimaster.netlify.app">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg ">
                   API-Master
@@ -101,7 +101,7 @@ const Projects = () => {
                 </li>
               </ul>
             </li>
-            <li className="border text-white p-3 rounded-xl leading-loose lg:leading-loose">
+            <li className="border dark:text-neutral-200 p-3 rounded-xl leading-loose lg:leading-loose">
               <Link href="https://edittextwithrajat.netlify.app">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg ">
                   Edit-Text

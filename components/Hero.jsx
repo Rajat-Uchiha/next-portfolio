@@ -5,13 +5,13 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <section className=" w-full  mx-auto bg-gray-950 pt-10 ">
+    <section className=" w-full  mx-auto dark:bg-neutral-950 pt-10 ">
       <main className=" w-3/4 lg:w-1/2 mx-auto">
         <div className="font-Josefin">
-          <h2 className="text-white text-xl lg:text-3xl font-bold leading-loose lg:leading-loose ">
-            Hello world, Rajat Here.
+          <h2 className="dark:text-neutral-200  text-xl lg:text-3xl font-bold leading-loose lg:leading-loose ">
+            Hello World, Rajat here.
           </h2>
-          <h2 className="text-white text-xl lg:text-3xl font-bold ">
+          <h2 className="dark:text-neutral-200 text-xl lg:text-3xl font-bold ">
             <Typewriter
               options={{
                 strings: [
@@ -26,7 +26,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="py-4">
-          <p className="font-Josefin text-white text-base lg:text-lg leading-loose lg:leading-loose">
+          <p className="font-Josefin dark:text-neutral-200 text-base lg:text-lg leading-loose lg:leading-loose">
             Enthusiastic learner specializing in MERN development. <br /> I am
             Eager to combine technical expertise with design thinking to drive.
             <br /> Always open to work and collaborate with others. <br /> I
