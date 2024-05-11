@@ -4,8 +4,8 @@ import "./globals.css";
 const Josefin = Josefin_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rajat's Portfolio | Web Developer",
-  description: "This is Rajat's Portfolio.",
+  title: "Rajat Kalotra | Web Developer | Programmer",
+  description: "Rajat Kalotra Portfolio",
 };
 
 export default function RootLayout({ children }) {
