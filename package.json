@@ -17,6 +17,8 @@
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "@types/node": "22.2.0",
+    "@types/react": "18.3.3",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.11.1",
     "eslint": "^8",

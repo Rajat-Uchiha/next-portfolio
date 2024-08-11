@@ -1,12 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
-import Footer from "@/components/Footer";
-import Loading from "../components/Loading";
+
+import Navbar from "/components/Navbar";
+import Experience from "/components/Experience";
+import Footer from "/components/Footer";
+import Hero from "/components/Hero";
+import Loading from "/components/Loading";
+import Projects from "/components/Projects";
+
 import { IoSunnyOutline } from "react-icons/io5";
 import { PiMoonStarsLight } from "react-icons/pi";
 

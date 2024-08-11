@@ -16,11 +16,18 @@ const Experience = () => {
               <span className="text-purple-600 cursor-pointer hover:text-purple-800 mx-2">
                 TechScholars
               </span>
-              <br />
-              Primarily contributing in the frontend part of the website.
-              <br />
-              (March 2024 - June 2024)
             </Link>
+            <br />
+            Primarily contributing in the frontend part of the website. <br /> I
+            am using my{" "}
+            <Link href="https://nextjs.org/">
+              <span className="text-purple-600 cursor-pointer hover:text-purple-800 mx-2">
+                Next.js
+              </span>
+            </Link>
+            skills to build and improve the site. 🖥️
+            <br />
+            (March 2024 - Present)
           </p>
         </div>
       </main>
