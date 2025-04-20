@@ -15,9 +15,10 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Full-Stack MERN Developer",
+                  "Full-Stack Developer",
                   "Programmer",
                   "Web Designer",
+                  "Mobile App Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -27,8 +28,8 @@ const Hero = () => {
         </div>
         <div className="py-4">
           <p className="font-Josefin dark:text-neutral-200 text-base lg:text-xl leading-loose lg:leading-loose">
-            Enthusiastic learner specializing in MERN development. <br /> I am
-            Eager to combine technical expertise with design thinking to drive.
+            Enthusiastic learner specializing in development. <br /> I am Eager
+            to combine technical expertise with design thinking to drive.
             <br /> Always open to work and collaborate with others. <br /> I
             love to spend time with
             <Link href="https://www.instagram.com/urs_rajat7/">
