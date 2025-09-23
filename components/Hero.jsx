@@ -9,17 +9,13 @@ const Hero = () => {
       <main className=" w-3/4 lg:w-1/2 mx-auto">
         <div className="font-Josefin">
           <h2 className="dark:text-neutral-200  text-xl lg:text-3xl font-bold leading-loose lg:leading-loose ">
-            Hello 👋 World, Rajat here.
+            RAJAT KALOTRA{" "}
+            <span className="text-sm font-normal">Software Engineer</span>
           </h2>
-          <h2 className="dark:text-neutral-200 text-xl lg:text-3xl font-bold ">
+          <h2 className="dark:text-neutral-200 text-xl lg:text-2xl font-semibold leading-loose lg:leading-loose">
             <Typewriter
               options={{
-                strings: [
-                  "Full-Stack Developer",
-                  "Programmer",
-                  "Web Designer",
-                  "Mobile App Developer",
-                ],
+                strings: ["I Code", "I Fix", "I Learn", "I Repeat"],
                 autoStart: true,
                 loop: true,
               }}
@@ -28,16 +24,14 @@ const Hero = () => {
         </div>
         <div className="py-4">
           <p className="font-Josefin dark:text-neutral-200 text-base lg:text-xl leading-loose lg:leading-loose">
-            Enthusiastic learner specializing in development. <br /> I am Eager
-            to combine technical expertise with design thinking to drive.
-            <br /> Always open to work and collaborate with others. <br /> I
-            love to spend time with
+            Development is what I enjoy. <br /> Usually thinks technically.
+            <br /> New tech fascinates me. <br /> I got
             <Link href="https://www.instagram.com/urs_rajat7/">
               <span className="text-purple-600 cursor-pointer hover:text-purple-800 mx-2">
                 friends
               </span>
             </Link>
-            when I don&apos;t feel like working. 😁
+            and they are my escapism.
           </p>
         </div>
       </main>

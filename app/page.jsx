@@ -35,7 +35,7 @@ export default function Home() {
           <Footer />
 
           <button
-            className="w-16 h-16 bg-black dark:bg-white rounded-full border-2 border-black fixed right-4 top-4 flex justify-center items-center
+            className="w-12 h-12 bg-black dark:bg-white rounded-full border-2 border-black fixed right-4 top-4 flex justify-center items-center
           "
             onClick={() => {
               setIsDark(!isDark);
