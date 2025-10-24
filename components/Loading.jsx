@@ -14,7 +14,7 @@ const Loading = () => {
         className="w-80 h-80  mx-auto flex flex-col justify-center items-center dark:bg-neutral-950  "
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        <span className="text-6xl dark:text-neutral-200 animate-pulse">
+        <span className="text-4xl dark:text-neutral-200 animate-pulse">
           Wait a sec...
         </span>
       </motion.div>
