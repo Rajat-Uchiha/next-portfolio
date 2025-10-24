@@ -12,6 +12,21 @@ const Experience = () => {
         <ul className="list-none">
           <li className="py-2">
             <p className="font-Josefin dark:text-neutral-200 text-base lg:text-lg leading-loose lg:leading-loose">
+              - Junior Manager
+              <Link href="https://smlmahindra.com/">
+                <span className="text-purple-600 cursor-pointer hover:text-purple-800 mx-2">
+                  @SML Mahindra Limited{" "}
+                  <span className="text-xs text-white">
+                    (formerly known as SML Isuzu)
+                  </span>
+                </span>
+              </Link>
+              <br />
+              (Sept 2025 - Present)
+            </p>
+          </li>
+          <li className="py-2">
+            <p className="font-Josefin dark:text-neutral-200 text-base lg:text-lg leading-loose lg:leading-loose">
               - Management Trainee
               <Link href="https://smlisuzu.com/">
                 <span className="text-purple-600 cursor-pointer hover:text-purple-800 mx-2">
@@ -27,7 +42,7 @@ const Experience = () => {
               </Link>
               expertise to build applications.
               <br />
-              (Sept 2024 - Present)
+              (Sept 2024 - Sept 2025)
             </p>
           </li>
           <li className="py-2">
