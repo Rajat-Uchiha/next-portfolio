@@ -56,7 +56,7 @@ const Projects = () => {
               </ul>
             </li>
             <li className="border dark:text-neutral-200  p-5 space-y-2 rounded-md leading-loose lg:leading-loose">
-              <Link href="https://smlisuzu.net/smart">
+              <Link href="https://smlmahindra.net/smart">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg font-semibold">
                   Ess Portal{" "}
                   <span className="text-white font-light text-xs">
@@ -88,7 +88,7 @@ const Projects = () => {
               </ul>
             </li>
             <li className="border dark:text-neutral-200  p-5 space-y-2 rounded-md leading-loose lg:leading-loose">
-              <Link href="https://smlisuzu.net/budget">
+              <Link href="https://smlmahindra.net/budget">
                 <h2 className="text-purple-600 cursor-pointer hover:text-purple-800 text-lg font-semibold">
                   Budget Portal{" "}
                   <span className="text-white font-light text-xs">
